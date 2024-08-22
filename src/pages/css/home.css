@@ -1,0 +1,66 @@
+.Home{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("/public/banner-image.gif");
+    background-size: contain;
+    background-position: center;
+    z-index: -999;
+
+    .main{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header{
+        font-size: 2.3rem;  
+        text-align: center;
+        color: #ff3131;
+        text-shadow: -10px 5px 6px black;
+        line-height: 40px;
+        z-index: 1;
+    }
+    .subtext{
+        font-size: 1.8rem;
+        color: white;
+        text-shadow: 4px 4px 2px black;
+        z-index: 1;
+    }
+
+    .subtext span{
+        padding: 30px;
+        background-image: url("/public/space-bar.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-size: 1.6rem;
+        color: black;
+        text-shadow: none;
+        cursor: url("/public/cursor.png") ,pointer;
+    }
+    .menu{
+        background-color: #2f2c3d;
+        color: white;
+        border-radius: 5px;
+        border: solid 2px white;
+        z-index: 1;
+    }
+    .menu h1{
+        font-size: 1.3rem;
+        padding: 10px 100px;
+    }
+    .menu p{
+        padding: 0 50px;
+    }
+    .menu img{
+        margin-right: 5px;
+    }
+    .anray{
+        position: absolute;
+        will-change: contents;
+        transition: 1s;
+        transition-timing-function: linear;
+    }
+}

@@ -1,0 +1,19 @@
+.Nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+    background-color: #2f2c3d;
+    color: white;
+
+    .section{
+        display: flex;
+    }
+    .section h1{
+        margin-left: 20px;
+    }
+    i{
+        font-size: 32px;
+        margin-left: 5px;
+    }
+}

@@ -1,0 +1,10 @@
+.Availability{
+    position: absolute;
+    background-color: #2f2c3d;
+    border-radius: 20px;
+    line-height: 0px;
+    color: white;
+    padding: 2px 30px;
+    font-size: 6px;
+    margin: 10px 30px;
+}
